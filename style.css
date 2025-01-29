@@ -1,0 +1,156 @@
+
+*{
+    padding:0%;
+    margin: 0px;
+}
+.nav{
+    display :flex;
+    gap:50px;
+   justify-content:space-between;
+   border-bottom: 1px solid black;
+   
+   padding: 30px;
+   
+
+.navi{
+    display:flex;
+    gap:50px;
+    justify-content: space-between;
+}
+    a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+  text-transform: capitalize;
+
+}
+
+}
+.content {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items: center;
+    padding: 20px;
+    .icon {
+        font-size: 50px;
+        color:rgb(146, 12, 57);
+    }
+    .title {
+           text-transform: capitalize;
+           color:rgb(16, 16, 109);
+           font-size: 50px;
+           font-family: Arial, sans-serif;
+           
+    
+   
+    }  
+
+}
+.nav1{
+    display :flex;
+    gap:50px;
+   justify-content:center;
+   border-bottom: 3px solid black;
+   width:80%;
+   margin : 0 auto;
+   padding: 30px;
+   
+
+.navi1{
+    display:flex;
+    gap:50px;
+    justify-content: space-between;
+    font-weight: bold;
+   }
+    a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:rgb(122, 8, 46);
+
+   }
+
+}
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+.cards{
+    
+        width:fit-content;
+        text-align: center;
+        padding-top: 20px;
+        
+        .card1 {
+          /* border:5px solid black;*/
+           width: 400px;
+
+        }
+        p {
+           font-size: 15px;
+           text-align: justify;
+           border-radius: 5px;
+        
+        
+        
+        }
+        
+        img {
+            height: 250px;
+            width:400px;
+            background-color: aquamarine;
+            
+        
+        }
+        h2{
+            color:rgb(16, 16, 109);
+        }
+}
+}
+.footer {
+    border: 1px solid black;
+    background-color: rgb(16, 16, 109);
+    margin-top: 20px;
+    justify-content: center;
+    .icon {
+        text-align: center;
+       font-size: 40px;
+       color:rgb(146, 12, 57);
+    }
+    .title {
+        text-transform: capitalize;
+        font-size: 50px;
+        text-align:center;
+        color: azure;
+        font-weight: bold;
+        padding:10px;
+    }
+    p{
+       border-top: 2px solid white;
+       margin: auto;
+       width:75%;
+        text-transform: capitalize;
+        font-size: 30px;
+        text-align:center;
+        color: azure;
+        padding-top: 20px;
+    }
+    .icons {
+       /* border:1px solid white;*/
+        width:fit-content;
+        margin:auto;
+        margin-top: 10px;
+        text-align: center;
+        font-size:40px;
+      i{
+            color:aliceblue;
+            text-decoration: none;
+       
+        }
+       
+    }
+
+}
