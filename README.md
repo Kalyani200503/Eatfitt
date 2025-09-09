@@ -1,1 +1,1 @@
-https://github.com/Kalyani200503/Eatfitt/index.html
+https://github.com/Kalyani200503/Eatfitt/index.index.html
